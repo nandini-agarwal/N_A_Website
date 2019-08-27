@@ -171,7 +171,7 @@ footer .container_footer{
 /*CONTENT ENDS*/
 
 /*Media Queries*/
-@media(max-device-width: 768px){
+@media(max-width: 768px){
 	
 	header nav{
 		float: right;
@@ -187,20 +187,20 @@ footer .container_footer{
 	}
 	
 	.footerBox {
-	float: center;
-	text-align:center;
-	width: 100%;
-	padding:10px;
-	align-self: center;
-	box-sizing: border-box;
+		float: center;
+		text-align:center;
+		width: 100%;
+		padding:10px;
+		align-self: center;
+		box-sizing: border-box;
 	}
 
 	.footerBox2 {
-	text-align:center;
-	width: 100%;
-	padding:10px;
-	position: relative;
-	box-sizing: border-box;	
+		text-align:center;
+		width: 100%;
+		padding:10px;
+		position: relative;
+		box-sizing: border-box;	
 	}
 	
 	.content{
@@ -222,13 +222,10 @@ footer .container_footer{
 	/*NEWSLETTER ENDS Used On: About*/
 
 	/*BOX1 STARTS*/
-	.box1{	
-	padding:10px;
-	width: 100%;
-	align-self: center;
-	float: center;
-	box-sizing: border-box;
-	text-align:center;
+	.box1{
+		width: 100%;
+		align-self: center;
+		float: center;
 	}
 	/*BOX1 ENDS Used On: Projects*/
 }
