@@ -174,11 +174,11 @@ footer .container_footer{
 	
 	header #branding{
 		float: left;
-		width: 100%;
+		width: 80%;
 	}
 	
 	header nav{
-		float: right;
+		float: center;
 		width: 100%;
 	}
 	
