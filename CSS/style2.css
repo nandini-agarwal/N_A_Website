@@ -206,6 +206,12 @@ footer .container_footer{
 	position: relative;
 	box-sizing: border-box;	
 	}
+	
+	.content{
+		min-height:500px;
+		*width: 90%;
+		align-self: center;
+	}
 
 	/*NEWSLETTER STARTS*/
 	.left_col{
