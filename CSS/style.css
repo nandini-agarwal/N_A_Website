@@ -171,7 +171,20 @@ footer .container_footer{
 
 /*Media Queries*/
 @media(max-width: 768px){
+	
+	header nav{
+		float: right;
+		margin-top: 10px;
+		overflow: hidden;
+	}
 
+	header li{
+		padding: 0 10px 0 10px;
+		display: inline;
+		float: left;
+		text-transform: bold;
+	}
+	
 	.footerBox {
 	float: center;
 	text-align:center;
@@ -187,6 +200,11 @@ footer .container_footer{
 	padding:10px;
 	position: relative;
 	box-sizing: border-box;	
+	}
+	
+	.content{
+		width: 100%;
+		align-self: center;
 	}
 
 	/*NEWSLETTER STARTS*/
