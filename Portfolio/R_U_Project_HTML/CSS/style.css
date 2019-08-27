@@ -1,0 +1,315 @@
+body{
+	font:10px/1.5 Arial, Helvetica, San-Serif;
+	padding:0;
+	margin:0; 
+	background-color: #424A35;
+	background: url('../Images/BG_Pic.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+
+
+/*Global*/
+.title{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 1%;
+	font-size: 12px;
+}
+
+.page-title-side{
+	margin-top:30px;
+	font-size: 35px;
+	margin-bottom:10px;
+	text-shadow: 2px 2px 5px #000000;
+	font-family: "Georgia", Times, serif;
+}
+
+.page-title{
+	margin-top:30px;
+	font-size: 35px;
+	margin-bottom:10px;
+	text-shadow: 2px 2px 5px #000000;
+	font-family: "Georgia", Times, serif;
+	align-self: center;
+	text-align: center;
+}
+
+.print{
+	align-self: right;
+	align-content: right;
+	align:right;
+	align-items: right;
+}
+
+.imgPrint{
+	width: 40px;
+	height: 40px; 
+	align-self: right;
+	border-radius: 4;
+	align-items: right;
+	align: right;
+}
+
+input[type='date']{
+	font-size: 100%;
+}
+
+.form-horizontal2{
+	text-align: center;
+	align-self: center;
+	margin: auto;
+	font: #000000;
+	text-shadow: 2px 2px 5px silver;
+	color: #000000;
+}
+
+.images{
+	display: block;
+	width: 60%;
+	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 8px;
+}
+
+.center{
+	align-self: center;
+	margin: auto;
+	text-align: center;
+}
+
+label{
+	font-size: 20px;
+}/*Used on Index*/
+
+.container{
+	margin: auto;
+	width: 90%;
+	overflow: hidden;
+	color: #000000;
+}/*Used on Index*/
+
+.boxes{
+	margin-top: 20px;
+	/*margin-left: 50px;*/
+	margin-bottom: 200px;
+}/*Used on Index*/
+
+.boxes .box-type1{
+	float:left;
+	text-align:center;
+	width:30%;
+	padding:10px;
+}/*Used on Index*/
+
+.boxes .box-type1 img{
+	width:90px;
+}/*Used on Index*/
+
+
+.dark{
+	padding: 15px;
+	background-color: #35424A;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+  background:#35424a;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}/*Used on Index*/
+
+.button_1{
+	height: 38px;
+	background: #BA3954;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #000000;
+	display: inline-block;
+}
+
+.button{
+	border-radius: 8px;
+}
+
+img{
+	border-radius: 15%;
+	margin: 20px;
+}
+
+.table{
+	font-color: #000000;
+	background-color: #0000000;
+}
+
+/*Header*/
+.container_branding{
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+}
+
+header{
+	background: #35424a;
+	color: white;
+	min-height: 70px;
+	padding-top: 20px;
+	border-bottom: #BA3954 3px solid;
+}
+
+header a{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+header li{
+	padding: 0 20px 0 20px;
+	display: inline;
+	float: left;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+ 
+header a:hover{
+	font-weight:bold;
+	color: #CCCCCC;
+}
+
+header .current a, header .highlight{
+	font-weight: bold;
+	color: #BA3954;
+}
+
+/*Showcase*/
+.showcase{
+	min-height:400px;
+	text-align: center;
+}
+
+.showcase h1{
+	margin-top:30px;
+	font-size:35px;
+	margin-bottom:10px;
+	text-shadow: 2px 2px 5px #000000;
+	font-family: "Georgia", Times, serif;
+}
+
+.showcase h2{
+	margin-top:30px;
+	font-size:20px;
+	margin-bottom:10px;
+	text-shadow: 2px 2px 5px #000000;;
+}
+
+.showcase h3{
+	margin-top:30px;
+	font-size:20px;
+	margin-bottom:10px;
+	/*text-shadow: 2px 2px 5px black;*/
+}
+
+.showcase p{
+	margin-top:20px;
+	font-size:2vw;
+	font-size:20px;
+	margin-bottom:10px;
+	/*text-shadow: 2px 2px 5px silver;*/
+}
+
+/*Sidebar*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+  margin-right:30px;
+}
+
+aside#sidebar .quote input,aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+
+/*Services*/
+ul#services li{
+  list-style: none;
+  padding:10px;
+  border:#cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6
+}
+
+/*Main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/*Content*/
+.content{
+	float: center;
+	margin-bottom: 30%;
+	/*text-align: center;*/
+}
+
+
+/*Footer*/
+footer{
+	padding: 10px;
+	margin-top: 20px;
+	background-color:#35424a;
+	text-align: center;
+	color:#FFFFFF;
+	font-size: 1vw;
+	font-weight: bold;
+	mix-blend-mode: screen;
+	width:100%;	
+}
+
+/*Media Queries*/
+@media(max-width: 768px min-width: 0px){
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	.boxes .box,
+	article #main-col,
+	footer,
+	aside #sidebar{
+		float: none;
+		text-align: center;
+		width: 100%
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	.showcase h1{
+		margin-top: 40px;
+	}
+	.boxes .box{
+		margin-top: 100px;
+	}
+}
