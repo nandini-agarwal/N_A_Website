@@ -179,7 +179,15 @@ footer .container_footer{
 	
 	header nav{
 		float: center;
-		width: 100%;
+		margin-top: 10px;
+		overflow: hidden;
+	}
+
+	header li{
+		padding: 0 10px 0 10px;
+		display: inline;
+		float: right;
+		text-transform: bold;
 	}
 	
 	.footerBox {
