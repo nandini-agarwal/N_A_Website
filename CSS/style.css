@@ -238,10 +238,11 @@ footer .container_footer{
 /*SLIDER STARTS*/
 /* Slideshow container */
 .slideshow{
-  position: relative;
-  margin: auto;
-  padding-top: 50px;
-  box-sizing:border-box;
+	position: relative;
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 50px;
+	box-sizing:border-box;
 }
 
 .slide{
